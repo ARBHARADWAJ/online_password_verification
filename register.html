@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php" method="post">
+        <fieldset><legend ><b>Register</b></legend>
+        <label for="fae">Firstname: </label><input type="text" name="fname" id="fname"  required>
+        <br><br>
+        <label for="lnme">Lastname: </label><input type="text" id="lname"name="lname" required>
+        <br><br>
+		<label for="em">Enter the Emailid:</label><input type="email" id="ea" name="ea" required>
+		<br><br>
+        <label for="uam">Username: </label>
+        <input type="text" id="uname" name="uname" required><br>
+        <br><br>
+        <label for="pss">Password: </label>
+        <input type="password" id="pass"  name="pass" required><br>
+        <br><br>
+       <label for="gnder">Gender:</label><!--<input type="radio" value="false" id="m" required>Male &nbsp;
+        <input type="radio" value="false" id="fm">Female &nbsp;-->
+        <select id="gen" name="gen" required>
+		<option value="Male">Male</option>		
+		<option value="Female">Female</option>
+		</select>
+		<br><br>
+        phone no: <input type="number" id="phno" name="phno">
+        <br><br>
+        Instuate Name: <input type="text" id="iname" name="iname" >
+        <br><br>
+        Year: <select id="year" name="year" required >
+            <option value="1st year">1st year</option>
+            <option value="2nd year">2nd year</option>
+            <option value="3rd year">3rd year</option>
+            <option value="4th year">4th year</option>
+        </select><br><br>
+        Sem: <select id="sem" name="sem" required>
+            <option value="1st sem">1st sem</option>
+            <option value="2nd sem">2nd sem</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit" id="submit">
+    </fieldset></form>
+	
+	<a href="index.html" >click here to main page</a>
+</body>
+</html>
